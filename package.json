@@ -1,0 +1,15 @@
+{
+  "name": "practicing-electronjs",
+  "version": "1.0.0",
+  "description": "Learning the electron.js",
+  "main": "main.js",
+  "scripts": {
+    "start": "electron .",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Hamini",
+  "license": "ISC",
+  "devDependencies": {
+    "electron": "^30.0.6"
+  }
+}
