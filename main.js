@@ -10,6 +10,10 @@ const firstWindow = () => {
 
 app.whenReady().then(() => {
   firstWindow();
+
+  app.on("activate", () => {
+    if (BrowserWindow.getAllWindows().length === 0) createWindow();
+  });
 });
 
 app.on("window-all-closed", () => {
